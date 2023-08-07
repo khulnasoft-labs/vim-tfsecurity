@@ -1,0 +1,21 @@
+*vim-tfsecurity.txt*
+                                                                   *vim-tfsecurity*
+
+==============================================================================
+CONTENTS                                                  *vim-tfsecurity-contents*
+  1. Commands.............................................|vim-tfsecurity-commands|
+
+==============================================================================
+COMMANDS                                                  *vim-tfsecurity-commands*
+
+:Tfsecurity                                                                *:Tfsecurity*
+  Run tfsecurity against the current directory and populate the QuickFix list
+
+:TfsecurityInstall                                                  *:TfsecurityInstall*
+  Install the latest version of tfsecurity to %GOPATH/bin/tfsecurity
+
+:TfsecurityUpdate                                                    *:TfsecurityUpdate*
+  Updates tfsecurity to the latest version, requires tfsecurity to be on the path
+
+
+vim:tw=78:ts=8:ft=help:norl:
