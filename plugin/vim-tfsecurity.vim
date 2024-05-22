@@ -36,7 +36,7 @@ endfunction
 function! s:tfsecurityInstall() abort
 	try 
 		echom "Downloading the latest version of tfsecurity"
-    let installResult = system('go install github.com/khulnasoft-labs/tfsecurity/cmd/tfsecurity@latest')
+    let installResult = system('go install github.com/khulnasoft-lab/tfsecurity/cmd/tfsecurity@latest')
 		if v:shell_error != 0
     	echom installResult
 		else
